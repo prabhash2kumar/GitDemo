@@ -11,12 +11,14 @@ public class Day1 {
 	public void lastexecution()
 	{
 		System.out.println("I will execute last");
+		System.out.println("I will execute ");
 		
 	}
 	@Test
 	public void Demo()
 	{
 		System.out.println("hello");//automation
+		System.out.println("hi");
 		Assert.assertTrue(false);
 	}
 	@AfterSuite
